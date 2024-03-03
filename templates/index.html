@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="{% static 'dist/favicon.ico' %}">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <script defer src="{% static 'dist/js/chunk-vendors.9bbc71da.js' %}"></script>
+    <script defer src="{% static 'dist/js/app.3fcc63ff.js' %}"></script>
+    <link href="{% static 'dist/css/chunk-vendors.d682d952.css' %}" rel="stylesheet">
+    <link href="{% static 'dist/css/app.3792966d.css' %}" rel="stylesheet">
+</head>
+<body>
+    <noscript>
+        <strong>We're sorry but {{ app_name }} doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+</body>
+</html>
